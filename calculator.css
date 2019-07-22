@@ -1,0 +1,54 @@
+.body{
+    background-color: slategray;
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
+}
+
+.calcButton, .operateButton, .equalsButton{
+    color: aquamarine;
+    background-color: grey;
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: auto;
+    margin-top: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    left: 1px;
+    flex-wrap: wrap;
+    z-index: 10;
+    
+}
+
+#inputBar{
+    color: aquamarine;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    position: relative;
+    top: 3px;
+    width: 187px;
+    height: 30px;
+    font-size: 20px;
+    text-align: right;
+    z-index: 9;
+}
+
+#welcomeMessage{
+    color: aquamarine;
+    width: 100%;
+    text-align: center;
+    z-index: 9;
+}
+
+#calcInterface {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: 230px;
+    width: 200px;
+    z-index: 9;
+    
+}
